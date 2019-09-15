@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.wangxcit.test.fastdfs.Testfast
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 29.572 s <<< FAILURE! - in com.wangxcit.test.fastdfs.Testfast
+testQueryFile(com.wangxcit.test.fastdfs.Testfast)  Time elapsed: 10.829 s  <<< ERROR!
+org.csource.common.MyException: getStoreStorage fail, errno code: 0
+	at com.wangxcit.test.fastdfs.Testfast.testQueryFile(Testfast.java:56)
+
+testDownload(com.wangxcit.test.fastdfs.Testfast)  Time elapsed: 10.009 s  <<< ERROR!
+org.csource.common.MyException: getStoreStorage fail, errno code: 0
+	at com.wangxcit.test.fastdfs.Testfast.testDownload(Testfast.java:67)
+

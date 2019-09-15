@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FindBugs-IDEA">
+    <includeFilterFiles>
+      <filter file="D:/公司文件/idea插件配置文件/findbugs.xml" enabled="true" />
+    </includeFilterFiles>
+  </component>
+</project>

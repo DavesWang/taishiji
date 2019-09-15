@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wangxcit.learning.dao.XcOrderMapper">
+<select id="findListByUid" parameterType="java.lang.String"
+        resultType="com.wangxcit.framework.domain.order.XcOrders">
+        select *
+        from xc_orders
+        where buyerid = #{uid}
+    </select>
+    <select id="findListByUid1" parameterType="java.lang.String"
+            resultType="com.wangxcit.framework.domain.order.XcOrders">
+        select *
+        from xc_orders
+        where sellerid = #{uid}
+    </select>
+
+</mapper>
